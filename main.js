@@ -17,6 +17,6 @@ $(".join-button-scroll").click(function () {
     {
       scrollTop: $("#join-form-div").offset().top,
     },
-    "slow"
+    400
   );
 });
