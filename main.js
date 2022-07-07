@@ -1,6 +1,22 @@
-// import "./style.css";
+function submitWaitListForm() {
+  var name = document.getElementById("full-name");
+  var email = document.getElementById("email");
 
-// document.querySelector("#app").innerHTML = `
-//   <h1>Hello Vite!</h1>
-//   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-// `;
+  if (!validateForm(name, email)) {
+  }
+
+  trigger;
+
+  return;
+}
+
+function validateForm() {}
+
+$(".join-button-scroll").click(function () {
+  $("html,body").animate(
+    {
+      scrollTop: $("#join-form-div").offset().top,
+    },
+    "slow"
+  );
+});
